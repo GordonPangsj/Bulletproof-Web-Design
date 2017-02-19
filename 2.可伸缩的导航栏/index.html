@@ -6,11 +6,11 @@
     <style>
         nav[role="navigation"] ul{
             float: left;
-            width: 720px;
+            width: 50em;
             margin: 0;
-            padding: 10px 0 0 46px;
+            padding: 1em 0 0 5em;
             list-style: none;
-            background: #FFCB2D;
+            background: #666;
         }
         
         nav[role="navigation"] ul li{
@@ -25,12 +25,33 @@
             float: left;
             display: block;
             margin: 0;
-            padding: 4px 8px;
+            padding: .5em 1em;
             color: #333;
             text-decoration: none;
             border: 1px solid #9B8748;
             border-bottom: none;
-            background: #F9E9A9;
+            background:rgb(231,212,154);
+            background: -moz-linear-gradient(top, rgba(231,212,154,1) 0%, rgb(255,230,169,1) 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(231, 212,154,1)), color-stop(100%, rgba(255, 230, 169, 1)));
+            background: -webkit-linear-gradient(top, rgba(231,212,154,1) 0%, rgb(255,230,169,1) 100%);
+            background: -o-linear-gradient(top, rgba(231,212,154,1) 0%, rgb(255,230,169,1) 100%);
+            background: -ms-linear-gradient(top, rgba(231,212,154,1) 0%, rgb(255,230,169,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient (startColorstr='#e7d49a', endColorstr='#ffe6a9', GradientType=0);
+            background: linear-gradient(top, rgba(231,212,154,1) 0%, rgb(255,230,169,1) 100%);
+        }
+
+        nav[role="navigation"] ul li a:hover, body#intro #t-intro a{
+            color: #333;
+            padding-bottom: .5em;
+            border-color: #727377;
+            background:rgb(224, 226, 238);
+            background: -moz-linear-gradient(top, rgba(224, 226, 238,1) 0%, rgb(255,255,255,1) 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(224, 226, 238,1)), color-stop(100%, rgba(255,255,255, 1)));
+            background: -webkit-linear-gradient(top, rgba(224, 226, 238,1) 0%, rgb(255,255,255,1) 100%);
+            background: -o-linear-gradient(top, rgba(224, 226, 238,1) 0%, rgb(255,255,255,1) 100%);
+            background: -ms-linear-gradient(top, rgba(224, 226, 238,1) 0%, rgb(255,255,255,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient (startColorstr='#e0e2ee', endColorstr='#ffffff', GradientType=0);
+            background: linear-gradient(top, rgba(224, 226, 238,1) 0%, rgb(255,255,255,1) 100%);
         }
     </style>
 </head>
